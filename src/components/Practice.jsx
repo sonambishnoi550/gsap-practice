@@ -33,16 +33,16 @@ const Practice = () => {
 
   return (
     <div className='bg-cover bg-img bg-no-repeat bg-center min-h-screen flex justify-center items-center relative'>
-      <div className='absolute right-[13%] top-[13%] max-w-[200px] card'>
+      <div className='absolute md:right-[13%] md:top-[13%] top-[2%] right-[2%] md:max-w-[200px] max-w-[100px] card'>
         <img src="https://drpeppercaprod.wpengine.com/wp-content/uploads/2022/03/image9-300x400-1.jpg" alt='' />
       </div>
-      <div className='absolute left-[14%] top-[16%] max-w-[200px] card'>
+      <div className='absolute md:left-[14%] left-[10%] md:top-[16%] top-[2%] md:max-w-[200px] max-w-[100px] card'>
         <img src="https://drpeppercaprod.wpengine.com/wp-content/uploads/2022/03/image10-300x400-1.jpg" alt='' />
       </div>
-      <div className='absolute right-[10%] bottom-[15%] max-w-[200px] card'>
+      <div className='absolute right-[10%] xl:bottom-[15%] md:bottom-[1%] bottom-[3%] md:max-w-[200px] max-w-[100px] card'>
         <img src="https://drpeppercaprod.wpengine.com/wp-content/uploads/2022/03/image5-300x400-1.jpg" alt='' />
       </div>
-      <div className='absolute left-[13%] bottom-[10%] max-w-[200px] card'>
+      <div className='absolute left-[13%] bottom-[10%] md:max-w-[200px] max-w-[100px] card'>
         <img src="https://drpeppercaprod.wpengine.com/wp-content/uploads/2022/03/image2-300x400-1.jpg" alt='' />
       </div>
       <div className="container relative z-10 text-center px-6 py-10">
